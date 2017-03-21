@@ -14,7 +14,11 @@ easyctf{this_is_not_the_flag} i know this flag is weird i just cant put my finge
 
 So we got a red herring. Then, looking at the hint: "Red Herrings are always a _touchy_ subject", and "take a blind guess" and "stumble," we surmised that this problem is somewhat related to braille.
 
-We then saw that the error correction level of this QR code is H and the mask is 6. Since the error correction level is high, there might be differences. We generated a QR with the same text, mask, and error correction level, then compared the two. We see that there are differences. I cropped out this 89x11 section of the original qr code, and then wrote a script to decode braille on this qr code. Here is my script to extract the binary of the file, then decode it from braille
+We then saw that the error correction level of this QR code is H and the mask is 6. Since the error correction level is high, there might be differences. We generated a QR with the same text, mask, and error correction level, then compared the two. We see that there are differences. 
+
+![](https://github.com/VoidMercy/EasyCTF-Writeups-2017/blob/master/forensics/bizarro/diff.png)
+
+I cropped out this 89x11 section of the original qr code, and then wrote a script to decode braille on this qr code. Here is my script to extract the binary of the file, then decode it from braille
 
 ```python
 from PIL import Image
