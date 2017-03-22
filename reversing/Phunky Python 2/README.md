@@ -17,7 +17,7 @@ We had to find the value of jkx in order to make the program print true. We star
 
 First we had to find what b is equal to. After playing around with the functions in python's shell, we find that for each character in jkx, b is equail to pp[i] to the power of that character, all of these multiplied by each other.
 
-Then we have to find what pp is. We simply printed pp after it is computed, and got a list of 1229 integers. This list will be constant every time, so we can just use this in our solution.
+Then we have to find what pp is. We simply printed pp after it is computed, and got a list of the first 1229 primes. This list will be constant every time, so we can just use this in our solution.
 
 Then, after simplifying pork, we find that pork = jkx - 1.
 
@@ -26,7 +26,7 @@ Now we know what every line in this program does. We just have to find out what 
 Here is my script to find this:
 
 ```python
-lst = REMOVED #I removed this because it was very big :p
+lst = REMOVED #I removed this because it was very big :p basically it's just the list of the first 1229 primes
 numbequalto = 298142533459972353125216208611896260313759854634379454017626913019869030523755628601926829163490056136759291154170246269588079406415640897289723163043052735571403370823999085880254558960787830191426580931166730005416850884124181616949102806794078012758190650585958197054633549146371576221689963259346156534026838740762695201862923852711351603315111735215388452000
 print (len(lst))
 #length of 1229
