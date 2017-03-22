@@ -1,4 +1,4 @@
-#67k - 400 Points
+# 67k - 400 Points
 
 We were given approximately 67000 binaries, named in order, and we had to reverse each one and append the results together.
 
@@ -175,6 +175,6 @@ Note: This problem could also have been done directly from the hex of the binary
 
 After extracting every character into [decoded.txt](https://github.com/VoidMercy/EasyCTF-Writeups-2017/blob/master/reversing/67k/decoded.txt) we can see that this is obfuscated javascript. We can simply paste the contents of decoded.txt (excluding "Javascript: ") into console, and obtain the flag.
 
-##Flag
+## Flag
 
 >easyctf{double_you_tee_eff?so_mAny_b1ns}
