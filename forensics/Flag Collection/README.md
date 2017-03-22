@@ -1,4 +1,4 @@
-#Flag Collection - 80 Points
+# Flag Collection - 80 Points
 
 We are given a zip file containing many countries' flags and a Thumbs.db file. 
 
@@ -10,6 +10,6 @@ To read the Thumbs.db file, I used a tool called [Thumbs Viewer](https://thumbsv
 
 Scanning it gives us the flag.
 
-##Flag
+## Flag
 >easyctf{thumbs.db_c4n_b3_useful}
 
