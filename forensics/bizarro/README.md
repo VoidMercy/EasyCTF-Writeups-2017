@@ -1,4 +1,4 @@
-#Bizarro - 400 Points
+# Bizarro - 400 Points
 
 We were given an image.
 
@@ -73,6 +73,6 @@ From this we get:
 easyctfopenbracetzerouchybraillthreefakeqfourczerodthreeisszerozerofaaaakeunderscoreefceeacaclosebracemakesuretochangethenumbers
 Translating this, we get the flag.
 
-##Flag
+## Flag
 
 >easyctf{t0uchybraill3fakeq4c0d3iss00faaaake_efceeaca}
