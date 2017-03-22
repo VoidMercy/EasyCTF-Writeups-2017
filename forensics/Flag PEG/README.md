@@ -1,4 +1,4 @@
-#Flag PEG - 150 Points
+# Flag PEG - 150 Points
 
 We were given a .jpg file.
 
@@ -55,6 +55,6 @@ Here is the output:
 
 ![](https://github.com/VoidMercy/EasyCTF-Writeups-2017/blob/master/forensics/Flag%20PEG/out.png)
 
-##Flag
+## Flag
 
 >easyctf{1_wr073_7h15_1n_m5p41n7}
