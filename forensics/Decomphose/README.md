@@ -1,4 +1,4 @@
-#Decomphose - 300 Points
+# Decomphose - 300 Points
 
 We were given 84 images in 4 folders.
 
@@ -33,6 +33,6 @@ flag.save("flag.png")
 
 ![](https://github.com/VoidMercy/EasyCTF-Writeups-2017/blob/master/forensics/Decomphose/flag.png)
 
-##Flag
+## Flag
 
 >easyctf{wh4t_a_5weet_fFLag_2b04e1}
