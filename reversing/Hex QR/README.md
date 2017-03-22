@@ -1,4 +1,4 @@
-#Hex QR - 200 Points
+# Hex QR - 200 Points
 
 We were given a website with a custom "QR" generator and we were given an encrypted image.
 
@@ -82,6 +82,6 @@ for i in range (57):
 
 After getting the majority of the characters of the flag, I added "0123456789" into the charset, and finished computing the rest of the flag.
 
-##Flag
+## Flag
 
 >easyctf{are_triangles_more_secure_than_squares?_ae9856ab}
