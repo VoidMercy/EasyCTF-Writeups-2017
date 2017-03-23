@@ -1,5 +1,7 @@
 # Hex QR - 200 Points
 
+#### phsst - VoidMercy's writeup
+
 We were given a website with a custom "QR" generator and we were given an encrypted image.
 
 We had to find the text to input into the generator to create the same image as the one we were given.
