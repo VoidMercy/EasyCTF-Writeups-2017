@@ -87,7 +87,7 @@ The result is:
 flag{i_actu4lly_d0nt_know_th3_name_of_115_crypt0sy5tem}111111111111
 ```
 
-When we entered this, it didn't work, but we can see that _115_ would make more sense as _th15_. So we changed this, submitted, and it worked. (Don't know why there was a problem, and this flag doesn't start with easyctf!!!).
+When we entered this, it didn't work, but we can see that _115_ would make more sense as _th15_. So we changed this, submitted, and it worked. (Don't know why there was a problem... and also this flag doesn't start with easyctf!!!).
 
 ## Flag
 >flag{i_actu4lly_d0nt_know_th3_name_of_th15_crypt0sy5tem}

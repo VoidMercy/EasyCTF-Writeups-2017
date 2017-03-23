@@ -37,7 +37,7 @@ We can see that two things are being moved into registers eax and ecx. Then anot
 We can see that subtraction is performed on these two values, and stored into eax. Eax is then compared to the user input, presumably, and if it is the same, the character is printed.
 We can see that the character is just the correct user input value right shifted by a byte, stored at ds:byte_403007, then binary anded with 0xFF.
 
-Now we know how to obtain the character in each binary. We now just need to write a script to automate this process. I took advantage of objdump -d and objdump -s to obtain the two operands, the operation, and the right shift value. Here is my script:
+Now we know how to obtain the character in each binary. Take the two values moved into eax and ecx, perform an operation (xor, add, or sub depending on the binary), right shift by a byte value, and binary and the result with 0xFF. We now just need to write a script to automate this process. I took advantage of objdump -d and objdump -s to obtain the two operands, the operation, and the right shift value. Here is my script:
 
 ```python
 import os, subprocess
