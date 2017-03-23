@@ -1,6 +1,10 @@
 # Flag PEG - 150 Points
 
-#### phsst - VoidMercy's writeup
+We found a flag but it didn't do anything. Maybe you can find a better [flag](https://github.com/VoidMercy/easyctf-2017-problems/blob/master/flag-peg/heresaflag.jpg?raw=true)?
+
+### Solution
+
+###### Writeup by VoidMercy from phsst
 
 We were given a .jpg file.
 
