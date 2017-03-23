@@ -1,6 +1,10 @@
 # Phunky Python 2 - 115 Points
 
-#### phsst - VoidMercy's writeup
+We stumbled across another phunky Python file. Can you find the redacted value of jkx that makes this program print True?
+
+### Solution
+
+###### Writeup by VoidMercy from phsst
 
 We were given a python program shown below:
 
