@@ -1,6 +1,10 @@
 # Hex QR - 200 Points
 
-#### phsst - VoidMercy's writeup
+I've stumbled upon a very strange [QR code](https://github.com/EasyCTF/easyctf-2017-problems/blob/master/qrt/flag.png?raw=true)... seems like it was generated with [this generator](http://hexqr.web.easyctf.com). What could it mean?
+
+### Solution
+
+###### Writeup by VoidMercy from phsst
 
 We were given a website with a custom "QR" generator and we were given an encrypted image.
 
