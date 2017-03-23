@@ -1,6 +1,13 @@
 # Security Through Obscurity - 150 Points
 
-#### phsst - VoidMercy's writeup
+I've never seen such a cryptosystem before! It looks like a public key cryptosystem, though... Could you help me crack it?
+
+[encrypt.sage](https://raw.githubusercontent.com/EasyCTF/easyctf-2017-problems/master/security-through-obscurity/encrypt.sage)
+[publickey and ciphertext.txt](https://raw.githubusercontent.com/EasyCTF/easyctf-2017-problems/master/security-through-obscurity/publickey_and_ciphertext.txt)
+
+### Solution
+
+###### Writeup by VoidMercy from phsst
 
 We were given an encryption program, and a publickey and ciphertext shown below:
 
