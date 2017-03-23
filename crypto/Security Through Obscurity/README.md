@@ -1,5 +1,7 @@
 # Security Through Obscurity - 150 Points
 
+#### phsst - VoidMercy's writeup
+
 We were given an encryption program, and a publickey and ciphertext shown below:
 
 ```python
