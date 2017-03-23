@@ -1,5 +1,7 @@
 # Phunky Python 2 - 115 Points
 
+#### phsst - VoidMercy's writeup
+
 We were given a python program shown below:
 
 ```python
