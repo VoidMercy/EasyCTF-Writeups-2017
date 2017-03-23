@@ -1,5 +1,7 @@
 # 67k - 400 Points
 
+#### phsst - VoidMercy's writeup
+
 We were given approximately 67000 binaries, named in order, and we had to reverse each one and append the results together.
 
 Because we were given 67000 binaries, we can safely assume the structure of each binary is very similar to the others. Running one of the executables, we see that we had to input a number, and if the number is correct, the program will give us a character, which we would concatenate with the rest. However, the program does not exit after a correct input. This leads me to believe that we have to reverse the encryption system for outputting the character. Let's take a look at the code in IDA.
