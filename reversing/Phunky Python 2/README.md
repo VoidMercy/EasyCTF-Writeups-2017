@@ -1,4 +1,4 @@
-# Phunky Python 2
+# Phunky Python 2 - 115 Points
 
 We were given a python program shown below:
 
