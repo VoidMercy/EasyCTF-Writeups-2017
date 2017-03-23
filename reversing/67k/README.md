@@ -1,5 +1,7 @@
 # 67k - 400 Points
 
+#### phsst - VoidMercy's writeup
+
 We were given approximately 67000 binaries, named in order, and we had to reverse each one and append the results together.
 
 Because we were given 67000 binaries, we can safely assume the structure of each binary is very similar to the others. Running one of the executables, we see that we had to input a number, and if the number is correct, the program will give us a character, which we would concatenate with the rest. However, the program does not exit after a correct input. This leads me to believe that we have to reverse the encryption system for outputting the character. Let's take a look at the code in IDA.
@@ -37,7 +39,7 @@ We can see that two things are being moved into registers eax and ecx. Then anot
 We can see that subtraction is performed on these two values, and stored into eax. Eax is then compared to the user input, presumably, and if it is the same, the character is printed.
 We can see that the character is just the correct user input value right shifted by a byte, stored at ds:byte_403007, then binary anded with 0xFF.
 
-Now we know how to obtain the character in each binary. We now just need to write a script to automate this process. I took advantage of objdump -d and objdump -s to obtain the two operands, the operation, and the right shift value. Here is my script:
+Now we know how to obtain the character in each binary. Take the two values moved into eax and ecx, perform an operation (xor, add, or sub depending on the binary), right shift by a byte value, and binary and the result with 0xFF. We now just need to write a script to automate this process. I took advantage of objdump -d and objdump -s to obtain the two operands, the operation, and the right shift value. Here is my script:
 
 ```python
 import os, subprocess
