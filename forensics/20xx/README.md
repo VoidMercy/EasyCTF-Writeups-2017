@@ -4,7 +4,7 @@ This problem was a tricky problem for only 50 points. We were given a `.dtm` [fi
 
 Searching it up originally lead me towards AutoCAD software. However, once we look at the title, we realize that this relates to the Super Smash Bros. Melee game. Searching up `dtm game file` leads us to this [link](http://tasvideos.org/DTM.html).
 
-Now that we knoew this is a Dolphin gameplay file, I downloaded Dolphin and started looking for an ISO we can use to open the dtm file. Searching up Super Smash Bros. along with the Game ID: `GALE01`, reveals that there are 3 different versions of the game. I tried each one (opening the ISO through Dolphin and then going to `Movie -> Play Input Recording`) and finally version 1.0.2 was the one that matched the checksum stored in the dtm file. 
+Now that we know this is a Dolphin gameplay file, I downloaded Dolphin and started looking for an ISO we can use to open the dtm file. Searching up Super Smash Bros. along with the Game ID: `GALE01`, reveals that there are 3 different versions of the game. I tried each one (opening the ISO through Dolphin and then going to `Movie -> Play Input Recording`) and finally version 1.0.2 was the one that matched the checksum stored in the dtm file. 
 
 ![](https://github.com/VoidMercy/EasyCTF-Writeups-2017/blob/master/forensics/20xx/checksum.png?raw=true)
 
