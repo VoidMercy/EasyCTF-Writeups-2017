@@ -14,7 +14,7 @@ After some research, I came across this [link](https://smashboards.com/threads/m
 
 ![]()
 
-Now we can run the dtm file ad go straight to character select. The cursor moves around and selects players multiple times. I wrote down which character and the number of times they were clicked on. After staring at this for a while, I tried taking the nth letter of character based on how many times they were clicked on. Doing this reveals our flag.
+Now we can run the dtm file and go straight to character select. The cursor moves around and selects players multiple times. I wrote down which character and the number of times they were clicked on. After staring at this for a while, I tried taking the nth letter of character based on how many times they were clicked on. Doing this reveals our flag.
 
 ## Flag
 >easyctf{foxonlyfd}
