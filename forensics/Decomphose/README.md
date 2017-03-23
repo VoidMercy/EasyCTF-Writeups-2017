@@ -1,6 +1,18 @@
 # Decomphose - 300 Points
 
-#### phsst - VoidMercy's writeup
+Image arithmetic is super neat until there's more than two images involved.
+
+file 1
+
+[file 2](https://github.com/VoidMercy/easyctf-2017-problems/blob/master/decomphose/decomp2.7z?raw=true)
+
+[file 3](https://github.com/VoidMercy/easyctf-2017-problems/blob/master/decomphose/decomp3.7z?raw=true)
+
+[file 4](https://github.com/VoidMercy/easyctf-2017-problems/blob/master/decomphose/decomp4.7z?raw=true)
+
+### Solution
+
+###### Writeup by VoidMercy from phsst
 
 We were given 84 images in 4 folders.
 
