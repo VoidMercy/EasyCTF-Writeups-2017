@@ -1,4 +1,6 @@
-#QR2 - 330 points
+# QR2 - 330 points
+
+#### phsst - VoidMercy's writeup
 
 We were given a broken QR code.
 
