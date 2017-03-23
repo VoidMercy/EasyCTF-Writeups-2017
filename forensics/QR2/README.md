@@ -1,6 +1,10 @@
 # QR2 - 330 points
 
-#### phsst - VoidMercy's writeup
+When I am not practicing my [Oboe](https://en.wikipedia.org/wiki/Oboe) for band, I have been working on a QR code generator. For some reason, some of the images are not scannable. [Here](https://raw.githubusercontent.com/EasyCTF/easyctf-2017-problems/master/qr-2/qr2.bmp) is one, can you tell me what it says?
+
+### Solution
+
+###### Writeup by VoidMercy from phsst
 
 We were given a broken QR code.
 
