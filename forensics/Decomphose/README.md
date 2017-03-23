@@ -1,5 +1,7 @@
 # Decomphose - 300 Points
 
+#### phsst - VoidMercy's writeup
+
 We were given 84 images in 4 folders.
 
 After looking into each of the images, we can see that there are black squares surrounding pixels randomly in each of the images. We surmised that the solution requires you to combine all of the pixels with black pixels surrounding them. Here is my script to do this:
